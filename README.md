@@ -7,6 +7,9 @@
 * index.html
 * styles.css
 * app.js
+
   
 ## Wali ma dhamestrin marka dib ayaan uso updategrey donaa.
+
+`<p>Waxan Kudhisay Javascript Html CSS! with No Frameworks</p>`
 
