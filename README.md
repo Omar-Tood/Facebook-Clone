@@ -19,4 +19,5 @@
 * dropdown menu
 * settings
 * private
-
+  
+##Wali waxan ii shaqeyn la Qeebta javascript markan kudhafto ima so baxayo Dropdown menu
