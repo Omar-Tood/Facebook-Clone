@@ -13,3 +13,10 @@
 
 `<p>Waxan Kudhisay Javascript Html CSS! with No Frameworks</p>`
 
+
+#Now Hada Waxan Kuso daray Javascript file sidokle waxan kusodary other section side,
+
+* dropdown menu
+* settings
+* private
+
