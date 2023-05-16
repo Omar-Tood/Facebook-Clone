@@ -490,7 +490,7 @@ nav{
     transition: max-height 0.3s;
 }
 
-.setting-menu-height{
+.settings-menu-height{
     max-height: 450px;
 }
 
@@ -532,4 +532,25 @@ nav{
     justify-content: space-between;
     text-decoration: none;
     color:#626262;
+}
+
+#dark-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+#dark-btn span{
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
 }

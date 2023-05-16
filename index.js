@@ -1,10 +1,11 @@
 // alert("hello world!");
 
-const settingMenu  = document.querySelector(".setting-menu")
+let settingMenu  = document.querySelector(".setting-menu")
 
 function settingMenuToggle(){
-    settingMenu.classList.toggle("setting-menu-height");
+    settingMenu.classList.toggle("settings-menu-height");
 
 }
+
 
 
