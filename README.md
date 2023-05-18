@@ -29,6 +29,7 @@
 >Wali waxaa ii shaqeyn La Qeebta Menu Setting Toogle Dark-them inshall dib ayan ka sameydonaa.
 
 ```javascript
+// alert("hello world!");
 
 let settingMenu  = document.querySelector(".setting-menu");
 let darkBtn= document.getElementById("dark-btn")
@@ -41,7 +42,35 @@ function settingMenuToggle(){
 darkBtn.onclick = function(){
     darkBtn.classList.toggle("dark-btn-on")
     document.body.classList.toggle("dark-them");
+
+    if(localStorage.getItem("theme") == 'light'){
+        localStorage.setItem("theme", "dark");
+    }
+    else{
+        localStorage.setItem("theme", "light");
+        
+    }
 }
+
+
+if(localStorage.getItem("theme") == 'light'){
+    darkBtn.classList.remove("dark-btn-on");
+    document.body.classList.toggle("dark-them");
+}
+else if(localStorage.getItem("theme") == 'dark'){
+    darkBtn.classList.add("dark-btn-on");
+    document.body.classList.add("dark-them");
+}
+
+else{
+
+    localStorage.setItem("theme" , 'light');
+    
+
+
+}
+
+
 ```
 
 ####waxan so daray Favicon in out header page.
