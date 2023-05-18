@@ -43,3 +43,5 @@ darkBtn.onclick = function(){
     document.body.classList.toggle("dark-them");
 }
 ```
+
+####waxan so daray Favicon in out header page.
