@@ -6,15 +6,35 @@
 
 }
 
+
+
+:root{
+    --body-color: #efefef;
+    --nav-color:#1876f2;
+    --bg-color:#fff;
+}
+
+.dark-them{
+    --body-color: #0a0a0a;
+    --nav-color:#000;
+    --bg-color:#000;
+
+}
+
+
+
+
+
 body{
-    background-color: lightgray;
+    background-color: var(--body-color);
+    transition: background 0.3s;
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1878f2;
+    background: var(--nav-color);
     padding: 5px 5%;
     position: sticky;
     top:0;
@@ -113,7 +133,7 @@ nav{
     top: 70px;
     align-self: flex-start;
     /* height: 100vh; */
-    background-color: #fff;
+    background-color: var(--bg-color);
     padding: 20px;
     border-radius: 4px;
     color: #626262;
@@ -312,7 +332,7 @@ nav{
 
 .write-posy-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -382,7 +402,7 @@ nav{
 
 .post-container{
     width: 100%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -480,7 +500,7 @@ nav{
     width: 90%;
     max-width: 350px;
     /* height: 500px; */
-    background-color: white;
+    background-color: var(--bg-color);
     box-shadow: 0 0 10px rgba(0,0,0.4);
     border-radius: 4px;
     overflow: hidden;
@@ -490,7 +510,7 @@ nav{
     transition: max-height 0.3s;
 }
 
-.settings-menu-height{
+.setting-menu-height{
     max-height: 450px;
 }
 
@@ -544,6 +564,7 @@ nav{
     padding: 2px 3px;
     cursor: pointer;
     display: flex;
+    transition: padding-left 0.5s , background 0.5s;
     
 }
 
@@ -554,3 +575,9 @@ nav{
     border-radius: 50%;
     display: inline-block;
 }
+
+#dark-btn .dark-btn-on{
+    padding: left 23px;
+    background: #0000;
+}
+

@@ -21,3 +21,25 @@
 * private
   
 >Wali waxan ii shaqeyn la Qeebta javascript markan kudhafto ima so baxayo Dropdown menu.
+
+#Halkan Ka arag simple yar Picture Sida u egyahay projectskena.
+
+[Simple Image](/images/SimplePicuter.png)
+
+>Wali waxaa ii shaqeyn La Qeebta Menu Setting Toogle Dark-them inshall dib ayan ka sameydonaa.
+
+```javascript
+
+let settingMenu  = document.querySelector(".setting-menu");
+let darkBtn= document.getElementById("dark-btn")
+
+function settingMenuToggle(){
+    settingMenu.classList.toggle("setting-menu-height");
+
+}
+
+darkBtn.onclick = function(){
+    darkBtn.classList.toggle("dark-btn-on")
+    document.body.classList.toggle("dark-them");
+}
+```
